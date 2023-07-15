@@ -74,10 +74,44 @@ git reset --hard 版本号
 
 # 6.初识分支
 
-紧急修复bug！！！完成进度100%
+![image-20230715124329566](C:\Users\减肥的小胖子\AppData\Roaming\Typora\typora-user-images\image-20230715124329566.png)
 
 现在处于3.0版本，我要开发商城功能，创建一个开发分支去开发商城，但是开发到中途，线上版本出现bug,那么需要紧急修复Bug,则在3.0版本基础上创建一个修复bug分支，修复完成之后合并到主分支
 
-不同分支之间是隔离的
+不同分支之间是隔离的 
 
-dev 分支 开发商城中 进度100%
+分支相关命令：
+
+查看分支
+
+git branch 
+
+创建分支
+
+git branch 分支名称
+
+切换分支 
+
+git checkout 分支名称
+
+分支合并（可能产生冲突）
+
+git merge 要合并的分支
+
+注意:切换分支再合并 比如现在dev分支想要合并到master分支，需要切换到master分支
+
+删除分支 
+
+git branch -d 分支名称
+
+# 7.git工作流
+
+![image-20230715125251717](C:\Users\减肥的小胖子\AppData\Roaming\Typora\typora-user-images\image-20230715125251717.png)
+
+开发代码写在dev分支，等到功能认为可以了，再合并到主分支
+
+主分支上版本都是稳定版本
+
+# 8.关于代码托管仓库
+
+![image-20230715130312299](C:\Users\减肥的小胖子\AppData\Roaming\Typora\typora-user-images\image-20230715130312299.png)

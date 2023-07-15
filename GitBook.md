@@ -135,5 +135,7 @@ git remote set-url origin "新的远程仓库地址"
 
 生成token 在第二次要输入Openssh password for github的时候 填入这个token即可
 
+提交     `$ git push -u origin main`    
+
 # 9.关于github的使用
 

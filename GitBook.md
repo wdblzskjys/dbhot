@@ -20,7 +20,12 @@
 
  5.个人信息的配置 告诉提交版本的是谁 第一次使用配置即可
 
-Git config –global user.email “”
+Git config --list 查看一些配置信息
+
+注意这个name和邮箱只起到标识用户身份作用，和代码托管平台的邮箱和密码无关
+
+git config --global user.name "Your Name"
+git config --global user.email "your_email@example.com"
 
  6.生成版本
 
@@ -115,3 +120,15 @@ git branch -d 分支名称
 # 8.关于代码托管仓库
 
 ![image-20230715130312299](C:\Users\减肥的小胖子\AppData\Roaming\Typora\typora-user-images\image-20230715130312299.png)
+
+查看远程仓库的地址
+
+   `$ git remote -v                                                                  origin  https://github.com/wdblzskjys/dbhot.git (fetch)                          origin  https://github.com/wdblzskjys/dbhot.git (push)                          `    
+
+Git仅允许为每个远程仓库设置一个 “origin”。如果你尝试再次添加 “origin”，就会出现该错误。
+
+git remote set-url origin "新的远程仓库地址"
+
+覆盖原来的origin地址
+
+已完成推送！

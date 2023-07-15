@@ -1,0 +1,4 @@
+class hello{
+public void static main(String args[]){
+当前版本1.0 已上线 目前功能 听歌 点餐 聊天
+}}

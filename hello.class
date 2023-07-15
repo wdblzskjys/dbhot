@@ -1,4 +1,5 @@
 class hello{
 public void static main(String args[]){
 当前版本1.0 已上线 目前功能 听歌 点餐 聊天
+开发新的功能 私聊 打赏功能 开发进度50%
 }}

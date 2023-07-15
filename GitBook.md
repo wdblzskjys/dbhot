@@ -131,4 +131,9 @@ git remote set-url origin "新的远程仓库地址"
 
 覆盖原来的origin地址
 
-已完成推送！
+关于认证:setting->developer settings->tokens->![image-20230715203610562](C:\Users\减肥的小胖子\AppData\Roaming\Typora\typora-user-images\image-20230715203610562.png)
+
+生成token 在第二次要输入Openssh password for github的时候 填入这个token即可
+
+# 9.关于github的使用
+

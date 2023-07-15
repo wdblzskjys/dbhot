@@ -143,3 +143,20 @@ git remote set-url origin "新的远程仓库地址"
 
 # 9.关于github的使用
 
+1.给远程仓库起别名
+
+git remote add origin 远程仓库地址
+
+2.向远程推送代码
+
+git push -u origin 分支
+
+3.克隆远程仓库的代码
+
+git clone 远程仓库地址
+
+4.切换分支
+
+git checkout 分支
+
+# 10.git协同开发

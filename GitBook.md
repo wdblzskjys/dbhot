@@ -137,5 +137,9 @@ git remote set-url origin "新的远程仓库地址"
 
 提交     `$ git push -u origin main`    
 
+![image-20230715210622312](C:\Users\减肥的小胖子\AppData\Roaming\Typora\typora-user-images\image-20230715210622312.png)
+
+登录不成功就把相关的凭据删除再试一试
+
 # 9.关于github的使用
 
